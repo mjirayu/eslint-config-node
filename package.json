@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eclint check *.js rules/*",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjirayu/eslint-config-node.git"
+  },
+  "author": "Jirayu Chamamahattana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjirayu/eslint-config-node/issues"
+  },
+  "homepage": "https://github.com/mjirayu/eslint-config-node#readme",
+  "devDependencies": {
+    "eclint": "^2.8.1",
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^23.8.2"
+  }
+}
